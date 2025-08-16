@@ -1,10 +1,22 @@
+from textwrap import fill
 import pygame
 from constants import *
 
 def main():
     print("Starting Asteroids!")
-    print(f"Screen Width:",SCREEN_WIDTH)
-    print(f"Screen Height:",SCREEN_HEIGHT)
+    print(f"Screen width:",SCREEN_WIDTH)
+    print(f"Screen height:",SCREEN_HEIGHT)
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            return
+
+    while True:
+        screen.fill(color = "black")
+        pygame.display.flip()
+        
+        
 
 
 if __name__ == "__main__":
