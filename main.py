@@ -42,9 +42,15 @@ def main():
                 sys.exit()
 
         for shot in shots:
+            for asteroid in asteroids:
                 if asteroid.collides_with(shot):
                     shot.kill()
-                    asteroid.split()
+                    new_asteroids = asteroid.split()
+                    for new_asteroid in new_asteroids:
+                        asteroids.add(new_asteroid)
+                        updatable.add(new_asteroid)
+                        drawable.add(new_asteroid)
+                    break  # Exit asteroid loop after hit
                     
 
         screen.fill("black")
