@@ -1,0 +1,4 @@
+appJar==0.94.0
+pillow==12.0.0
+pygame==2.6.1
+pyserial==3.5

@@ -1,7 +1,7 @@
 import pygame
-from constants import *
-from circleshape import CircleShape
-from shot import Shot
+from asteroids.src.constants import *
+from asteroids.src.circleshape import CircleShape
+from asteroids.src.shot import Shot
 
 
 class Player(CircleShape):
@@ -9,6 +9,7 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
+        self.shoot_sound = pygame.mixer.Sound("assets/laser.wav")
 
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
@@ -40,6 +41,7 @@ class Player(CircleShape):
         if self.shoot_timer > 0:
             return
         self.shoot_timer = PLAYER_SHOOT_COOLDOWN
+        self.shoot_sound.play()
         shot = Shot(self.position.x, self.position.y)
         shot.velocity = pygame.Vector2(0, 1).rotate(self.rotation) * PLAYER_SHOOT_SPEED
 

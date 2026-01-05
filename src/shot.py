@@ -1,6 +1,6 @@
 import pygame
-from constants import *
-from circleshape import CircleShape
+from asteroids.src.constants import *
+from asteroids.src.circleshape import CircleShape
 
 
 class Shot(CircleShape):
