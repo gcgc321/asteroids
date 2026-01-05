@@ -23,10 +23,12 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
    ```bash 
    python main.py
 
-5. **Controls**:
-    Key	    Action
-    W / S	Move Forward / Backward
-    A / D	Rotate Left / Right
-    SPACE	Fire Laser
-    P	    Pause / Resume Game
-    ESC	    Quit
+5. **Controls**
+
+   | Key | Action |
+   | :--- | :--- |
+   | **W / S** | Move Forward / Backward |
+   | **A / D** | Rotate Left / Right |
+   | **SPACE** | Fire Laser |
+   | **P** | Pause / Resume Game |
+   | **ESC** | Quit |
