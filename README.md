@@ -8,7 +8,7 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/gcgc321/asteroids.git](https://github.com/gcgc321/asteroids.git)
-   cd asteroids
+   cd asteroids/src
 
 2. **Set up a virtual environment**:
    ```bash
