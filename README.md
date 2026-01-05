@@ -37,5 +37,8 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
 
    | **ESC** | Quit |
 
+<p align="center">
+  <img src="assets/asteroid_clip.gif" alt="Asteroids Gameplay Demo" width="600">
+</p>
 
 
