@@ -1,6 +1,4 @@
-
 import pygame 
-
 
 def draw_text(screen, text, size, x, y):
     font = pygame.font.Font(None, size)

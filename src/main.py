@@ -1,11 +1,11 @@
 import sys
 import pygame
-from asteroids.src.constants import *
-from asteroids.src.player import Player
-from asteroids.src.asteroid import Asteroid
-from asteroids.src.asteroidfield import AsteroidField
-from asteroids.src.shot import Shot 
-from asteroids.src.drawtext import draw_text
+from constants import *
+from player import Player
+from asteroid import Asteroid
+from asteroidfield import AsteroidField
+from shot import Shot 
+from drawtext import draw_text
 
 
 def main():

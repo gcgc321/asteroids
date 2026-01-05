@@ -1,7 +1,7 @@
 import pygame
-from asteroids.src.constants import *
-from asteroids.src.circleshape import CircleShape
-from asteroids.src.shot import Shot
+from constants import *
+from circleshape import CircleShape
+from shot import Shot
 
 
 class Player(CircleShape):
@@ -9,7 +9,7 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.shoot_timer = 0
-        self.shoot_sound = pygame.mixer.Sound("assets/laser.wav")
+        self.shoot_sound = pygame.mixer.Sound("../assets/laser.wav")
 
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
