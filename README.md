@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Screenshot%202026-01-05%20012657.png">
+  <img src="assets/title.png">
 </p>
 
 A classic arcade-style space shooter built with Python and Pygame. Navigate through a dangerous asteroid field, shoot to survive, and test your reflexes!
@@ -39,6 +39,7 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
 <p align="center">
   <img src="assets/asteroid_clip.gif" alt="Asteroids Gameplay Demo" width="600">
 </p>
+
 
 
 
