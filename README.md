@@ -26,7 +26,7 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
    cd src 
    python main.py
 
-5. **Controls**
+## Controls
 
    | Key | Action |
    | :--- | :--- |
@@ -34,11 +34,11 @@ A classic arcade-style space shooter built with Python and Pygame. Navigate thro
    | **A / D** | Rotate Left / Right |
    | **SPACE** | Fire Laser |
    | **P** | Pause / Resume Game |
-
    | **ESC** | Quit |
 
 <p align="center">
   <img src="assets/asteroid_clip.gif" alt="Asteroids Gameplay Demo" width="600">
 </p>
+
 
 
